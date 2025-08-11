@@ -1,2 +1,19 @@
 # Guess the Number Game
-Guess the Number is an interactive C console game where the computer randomly selects a secret number, and the player tries to guess it within a limited number of attempts. The game offers three difficulty levels — Easy, Medium, and Hard — with feedback provided after each guess to guide the player towards the correct number.
+A fun C console game where you guess the secret number within limited attempts, featuring three difficulty levels — Easy, Medium, and Hard with helpful hints after each guess.
+
+## 📍Features :
+- **Three Difficulty Levels :**
+  <br>
+  - Easy → 15 guesses
+  - Medium → 10 guesses
+  - Hard → 5 guesses
+- Hints after each guess - "Too high" or "Too low"
+- Win if you guess the number before attempts run out.
+- Validates input to ensure guesses are within range.
+
+## 📍How to Play :
+1) Run the program in your C compiler.
+2) Choose a difficulty level (Easy, Medium, or Hard).
+3) Enter your guesses when prompted.
+4) Use the hints provided to narrow down your guess.
+5) Win if you guess correctly before attempts end — otherwise, the number will be revealed.
